@@ -1,0 +1,27 @@
+
+html { margin: 0 auto; padding: 0}
+body { margin: 0 auto; padding: 0; background-color: #000}
+h1, h2, h3, p { margin: 0; padding: 0; }
+
+.header { width: 90%; margin: 0 auto; display: block; clear: both;}
+.header h1 { color: #fff; padding-top: 40px; letter-spacing: -.02em; font: 700 36px/32px 'Helvetica Neue', Helvetica, sans-serif; text-transform: uppercase; }
+.header p { color: #fff; font: 300 18px/24px Helvetica, Arial, sans-serif; margin: 12px 0 24px 0; border-bottom: 1px solid #fff; padding-bottom: 12px; }
+.header .powered {font-size: 75%}
+.header .powered a { color: yellow }
+
+.wrapper { margin: 0 auto 40px auto; width: 90%; font-family: 'Helvetica Neue', Helvetica, sans-serif; height: auto; display: block; overflow: hidden; clear: both; }
+.container { margin: 4px; width: 318px; height: 255px; float: left; }
+.container p { font: 10px/10px 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #999; margin-top: 6px; }
+.container p a { text-decoration: none; font: 11px/14px 'Helvetica Neue', Helvetica, sans-serif; padding: 4px 6px; background-color: #fff; color: #777; opacity: .8; }
+.container p a.active { background-color: #fe0; }
+.placeholder { width: 288px; height: 216px; background-color: #ddd; color: #777; text-align: center; display: inline-block; font-size: 10px; line-height: 181px;}
+.recorder { overflow: hidden; text-decoration: none; height: 216px; width: 288px; display: block; padding-top: 160px; font: 10px/12px 'Helvetica Neue', Helvetica, sans-serif; text-align: center; }
+.recorder .pseudo-btn { padding: 4px 12px; border-radius: 12px; border: 1px solid #fff; color: #000; }
+.form-container { background: #68d1e6 center no-repeat; position: relative; width: 288px; height: 216px; overflow: hidden; }
+.overlay { margin: 20px; padding: 20px; background-color: #fff; opacity: .8; border-radius: 6px; }
+.overlay input { padding: 3px 6px; font-size: 12px; height: 24px;  }
+.overlay .form-group { margin-bottom: 4px; }
+.overlay .btn-primary { background-color: #e51; border: none; padding-left: 20px; padding-right: 20px; }
+.overlay .center { margin: 0 auto; text-align: center; }
+.overlay .footnote { font: 11px/13px Arial, sans-serif; text-align: right; margin-top: 10px;}
+.overlay .footnote a { color: #777; }
